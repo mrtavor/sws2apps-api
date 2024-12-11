@@ -465,7 +465,7 @@ export const retrieveUserBackup = async (req: Request, res: Response) => {
 
 		if (personMinimal) {
 			const minimalPersons = cong.persons.map((record) => {
-				const includeTimeAway = cong.settings.time_away_public.value;
+				const includeTimeAway = cong.settings.time_away_public?.value ?? false;
 
 				const personData = record.person_data as StandardRecord;
 
@@ -496,7 +496,7 @@ export const retrieveUserBackup = async (req: Request, res: Response) => {
 			result.public_schedules = cong.public_schedules.schedules.length === 0 ? [] : JSON.parse(cong.public_schedules.schedules);
 		}
 
-		if (scheduleEditor) {
+		if (scheduleEditor || elderRole) {
 			result.sources = cong.sources;
 			result.sched = cong.schedules;
 		}

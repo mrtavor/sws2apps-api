@@ -1,3 +1,26 @@
+# [3.4.0](https://github.com/sws2apps/sws2apps-api/compare/v3.3.2...v3.4.0) (2024-12-11)
+
+
+### Features
+
+* **deps:** bump @crowdin/crowdin-api-client from 1.39.1 to 1.40.0 ([100f61d](https://github.com/sws2apps/sws2apps-api/commit/100f61d6677520da8d95f76295f0f8260fe98967))
+* **users:** add createdAt property ([3225847](https://github.com/sws2apps/sws2apps-api/commit/32258475dbdb8a2b835c8a695d8b28979d18e6b1))
+
+## [3.3.2](https://github.com/sws2apps/sws2apps-api/compare/v3.3.1...v3.3.2) (2024-12-08)
+
+
+### Bug Fixes
+
+* **routes:** update route typo for report submission ([b4baa24](https://github.com/sws2apps/sws2apps-api/commit/b4baa242c8c1a2f5d990c06e1162ae3c5a786bc8))
+
+## [3.3.1](https://github.com/sws2apps/sws2apps-api/compare/v3.3.0...v3.3.1) (2024-12-07)
+
+
+### Bug Fixes
+
+* **controllers:** get schedules and sources for elder roles ([0d9e7b7](https://github.com/sws2apps/sws2apps-api/commit/0d9e7b7f6eee8b9e02df3c4d4c9811ed223c0103))
+* **controllers:** update log level in congregation admin ([7558a03](https://github.com/sws2apps/sws2apps-api/commit/7558a0308f22d4056daaf2cedd2a05e1c6dce0fe))
+
 # [3.3.0](https://github.com/sws2apps/sws2apps-api/compare/v3.2.0...v3.3.0) (2024-12-05)
 
 
